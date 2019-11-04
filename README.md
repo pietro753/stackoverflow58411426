@@ -8,4 +8,5 @@ Steps to reproduce
 2. Create a [controller](ClientDisconnectedDemo/Controllers/HomeController.cs) with non get action
 3. Integrate with Application Insights or [extend global.asax.cs](ClientDisconnectedDemo/Global.asax.cs) with Application_EndRequest.
 4. Execute a non get request and cancel it after 10ms
+5. Watch Application Insights or Output pane in VS for 500 Internal Server Error
 
