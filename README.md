@@ -10,3 +10,5 @@ Steps to reproduce
 4. Execute a non get request and cancel it after 10ms
 5. Watch Application Insights or Output pane in VS for 500 Internal Server Error
 
+## Result
+![Result](https://i.ibb.co/CbR4VyK/requestcancellation.png)
